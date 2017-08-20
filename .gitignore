@@ -49,3 +49,6 @@ atlassian*
 !/var/.htaccess
 /vendor/*
 !/vendor/.htaccess
+pub/media/catalog/
+pub/media/theme/
+pub/media/wysiwyg/

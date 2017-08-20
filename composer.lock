@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d438c9bad39593df9dbec51bd71382a",
+    "content-hash": "f365f4673754d344623ffd88146eddcc",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -5973,92 +5973,6 @@
                 "framework"
             ],
             "time": "2017-02-27T21:19:07+00:00"
-        },
-        {
-            "name": "mageplaza/module-core",
-            "version": "1.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mageplaza/module-core.git",
-                "reference": "3f1a4d656f28099ea0569d8d9403e1074d452fc3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/3f1a4d656f28099ea0569d8d9403e1074d452fc3",
-                "reference": "3f1a4d656f28099ea0569d8d9403e1074d452fc3",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Mageplaza\\Core\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Mageplaza",
-                    "email": "hi@mageplaza.com",
-                    "homepage": "https://www.mageplaza.com",
-                    "role": "Leader"
-                }
-            ],
-            "description": "Mageplaza Core M2",
-            "time": "2017-04-12T08:07:22+00:00"
-        },
-        {
-            "name": "mageplaza/module-smtp",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mageplaza/magento-2-smtp.git",
-                "reference": "ffbe945e7aa71ed2cb138ebd8ee87ea49e7ce1ac"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/ffbe945e7aa71ed2cb138ebd8ee87ea49e7ce1ac",
-                "reference": "ffbe945e7aa71ed2cb138ebd8ee87ea49e7ce1ac",
-                "shasum": ""
-            },
-            "require": {
-                "mageplaza/module-core": "*"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "psr-4": {
-                    "Mageplaza\\Smtp\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Mageplaza License"
-            ],
-            "authors": [
-                {
-                    "name": "Mageplaza",
-                    "email": "hi@mageplaza.com",
-                    "homepage": "https://www.mageplaza.com",
-                    "role": "Leader"
-                }
-            ],
-            "description": "SMTP Extension for Magento 2 helps the owner of store simply install SMTP (Simple Mail Transfer Protocol) server which transmits the messages into codes or numbers",
-            "keywords": [
-                "email settings",
-                "magento 2",
-                "mageplaza",
-                "smtp"
-            ],
-            "time": "2017-08-09T06:36:40+00:00"
         },
         {
             "name": "monolog/monolog",
