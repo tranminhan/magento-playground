@@ -3,3 +3,10 @@
 * https://www.linode.com/docs/websites/ecommerce/install-magento-on-centos-7
 * https://www.howtoforge.com/tutorial/how-to-install-magento-2-1-on-centos-7/
 * https://www.tecmint.com/install-magento-on-centos-7/
+
+###### Show all users 
+```
+cat /etc/passwd
+cat /etc/passwd | cut -d ":" -f1
+```
+
